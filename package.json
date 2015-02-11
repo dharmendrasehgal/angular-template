@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "author": "Naresh Bhatia",
   "license": "MIT",
-  "homepage": "https://github.com/archfirst/angular-template",
+  "homepage": "https://github.com/dharmendrasehgal/ngTest",
   "repository": {
     "type": "git",
-    "url": "https://github.com/archfirst/angular-template.git"
+    "url": "https://github.com/dharmendrasehgal/ngTest.git"
   },
   "scripts": {
     "init": "npm install",
