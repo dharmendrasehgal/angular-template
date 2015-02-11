@@ -2,9 +2,9 @@
   "name": "angular-template",
   "version": "0.1.0",
   "description": "A template to kick-start AngularJS projects",
-  "author": "Naresh Bhatia",
+  "author": "Dharmendra Sehgal",
   "license": "MIT",
-  "homepage": "https://github.com/archfirst/angular-template",
+  "homepage": "https://github.com/dharmendrasehgal/ngTest",
   "ignore": [
     "**/.*",
     "node_modules",

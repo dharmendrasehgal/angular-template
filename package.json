@@ -2,8 +2,7 @@
   "name": "angular-template",
   "description": "A template to kick-start AngularJS projects",
   "version": "0.1.0",
-  "author": "Naresh Bhatia",
-  "license": "MIT",
+  "author": "Dharmendra Sehgal",
   "homepage": "https://github.com/dharmendrasehgal/ngTest",
   "repository": {
     "type": "git",
