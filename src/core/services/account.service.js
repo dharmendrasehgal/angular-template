@@ -16,7 +16,7 @@
         return service;
 
         function getAccount() {
-            return $http.get(api + '/account')
+            return $http.get(serverapi + '/orders')
                 .then(getAccountComplete)
                 .catch(function(message) {
                     exception.catcher('XHR Failed for getAccount')(message);

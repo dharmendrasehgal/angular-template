@@ -1,0 +1,21 @@
+<section id="login-view" class="container-fluid">
+
+    <h1>Login</h1>
+
+    <div class="row">
+
+        <div class="col-sm-12">
+            <form name="loginFrm" novalidate>
+                <div class="form-group">
+                    <select ng-model="userName" name="userName" ng-options="user.name for user in vm.user">
+						<option value="">Select user..</option>
+				   </select>
+                </div>
+                <button type="submit" ng-disabled="!loginFrm.userName.$dirty" class="btn btn-default" ng-click="vm.loginDashboard(userName.name)">
+                    Login
+                </button>
+            </form>
+        </div>
+
+    </div>
+</section>

@@ -38,10 +38,25 @@
 .main {
   padding: 20px;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .main {
     padding-right: 40px;
     padding-left: 40px;
+  }
+  .table > thead:first-child > tr:first-child > th.col-md-hide{
+    display:none;
+  }
+  .table > tbody > tr > td.col-md-hide{
+    display:none;
+  }
+}
+
+@media (max-width: 320px) {
+    .table > thead:first-child > tr:first-child > th.col-sm-hide{
+    display:none;
+  }
+  .table > tbody > tr > td.col-sm-hide{
+    display:none;
   }
 }
 
